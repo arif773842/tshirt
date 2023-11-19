@@ -1,0 +1,8 @@
+{
+  "version": "4.4.2",
+  "platforms": "wordpress",
+  "platforms":"wordpress",
+  "update":"1",
+  "about": "<b>Product Custom Design data update</b> – We need to update your store database to the latest version. After updated please go to menu <b>Product designer > Settings > Remove cache</b> and click this link. <a href='https://drive.google.com/file/d/1bCTyjouarTr3eFNYdczBwVuq1Ry2Lcbo/view?usp=drivesdk' target='_blank'>View Image</a>",
+  "changelog": "http://docs.tshirtecommerce.com/wordpress/article/442/"
+}

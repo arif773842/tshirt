@@ -1,0 +1,56 @@
+#tool_cart .checkbox-inline, #tool_cart .radio-inline {
+	width: 100%;
+	float: left;
+	margin-left: 0; }
+#tool_cart_ps .color_pick {
+	width: 31px;
+	height: 31px;
+	display: block;
+	border: 1px solid #eee;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding: 0; }
+#tool_cart_ps .color_pick img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle; }
+#tool_cart_ps #color_to_pick_list {
+	list-style: none;
+	padding-left: 0; }
+#tool_cart_ps #color_to_pick_list li.selected > a {
+	border: 1px solid #007bff;
+	border-radius: 50%; }
+
+#dag-files-images .progress.progress-bar-container { width: 100%; }
+.design-mobile #tool_cart_ps { padding: 15px; }
+body.dg_screen #dg-wapper { height: 100%; min-height: 100%; max-height: 100%;}
+
+#ps-customizations ul {
+	margin: 0;
+	padding: 0;
+}
+#ps-customizations li {
+	list-style: none;
+}
+.rm-text-ps { padding-left: 5px; }
+#ps-customizations .customization-message {
+	overflow: hidden;
+	display: block;
+	clear: both;
+}
+.design-ps-customizations ul {
+	margin: 0;
+	padding: 0;
+}
+.design-ps-customizations ul li { list-style: none }
+
+/* style prestashop combination */
+#tool_cart_ps .product-variants ul[id^='group_'] { padding-left: 0; margin-left: 0; }
+#tool_cart_ps .product-variants ul > li { list-style: none; margin-right: 5px;float: left;width: auto; }
+#tool_cart_ps .product-variants input.input-color { display: none; }
+#tool_cart_ps .product-variants span.radio-label { padding-left: 5px; }
+#tool_cart_ps .product-variants span.color {float: left;width: 34px;height: 34px;border-radius: 4px;border: 1px solid #999;cursor: pointer;}
+#tool_cart_ps .product-variants span.color.active { border: 2px solid #232323;}
+#tool_cart_ps .product-variants .product-variants-item {padding-bottom: 10px;}
